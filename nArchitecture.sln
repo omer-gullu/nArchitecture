@@ -37,15 +37,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "src\demoProjects\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rentACar", "rentACar", "{E3BE1496-27FA-4B1B-B8B2-A9DC8DDDC4C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\demoProjects\rentACar\Application\Application.csproj", "{BEB80F9B-7977-4F10-97ED-76D26E024E91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\demoProjects\rentACar\Application\Application.csproj", "{BEB80F9B-7977-4F10-97ED-76D26E024E91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\demoProjects\rentACar\Domain\Domain.csproj", "{D3F35F77-2973-4C32-AD56-0984D6DBB95F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\demoProjects\rentACar\Domain\Domain.csproj", "{D3F35F77-2973-4C32-AD56-0984D6DBB95F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\demoProjects\rentACar\Infrastructure\Infrastructure.csproj", "{52FEBB32-F60C-4A2B-9E49-761BF7540A4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\demoProjects\rentACar\Infrastructure\Infrastructure.csproj", "{52FEBB32-F60C-4A2B-9E49-761BF7540A4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "src\demoProjects\rentACar\Persistence\Persistence.csproj", "{B789AFD6-DD47-40E9-BF0F-9AEE0D473112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "src\demoProjects\rentACar\Persistence\Persistence.csproj", "{B789AFD6-DD47-40E9-BF0F-9AEE0D473112}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "src\demoProjects\rentACar\WebAPI\WebAPI.csproj", "{A2C23E91-A3CE-4E9D-9CA5-92FF488E3C2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "src\demoProjects\rentACar\WebAPI\WebAPI.csproj", "{A2C23E91-A3CE-4E9D-9CA5-92FF488E3C2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -122,6 +122,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{1362EA01-9B01-4E17-A8FB-E42730A2AAB1} = {11C509DD-21AC-415F-B2F2-EB58985F2703}
 		{01B7F227-CE8F-41FD-9AF8-6AF5E5259161} = {CFFB1EB9-6447-4C20-8400-27D7E2B04508}
 		{84E05683-0E4A-4FB1-8FD4-9F0C509BC74C} = {CFFB1EB9-6447-4C20-8400-27D7E2B04508}
 		{CD9A8AA1-5CAB-4218-91C5-2550BB86354A} = {01B7F227-CE8F-41FD-9AF8-6AF5E5259161}
